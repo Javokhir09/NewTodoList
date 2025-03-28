@@ -31,6 +31,10 @@ function TodoList() {
           <span><CircleCheckBig /> Checked</span><Trash2 />
         </li>
       </ul>
+      <div className='new-todo'>
+        <input type="text" placeholder='New todo'/>
+        <button>+</button>
+      </div>
     </div>
   )
 }
